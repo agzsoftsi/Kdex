@@ -1,0 +1,9 @@
+@use '../../styles/color';
+
+.dexlayout {
+    background: color.$white;
+    display: flex;
+    width: 95%;
+    height: 95%;
+    padding: 20px;
+}
