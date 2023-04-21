@@ -9,8 +9,13 @@
     "strict": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
-    "types": ["react-dom/client"],
-    "skipLibCheck": false
+    "module": "commonjs",
+    "outDir": "dist", 
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strinctFunctionTypes": true,
+    "alwaysStrict": true, 
+    "removeComments": true,
   },
   "include": [
     "src/**/*"
