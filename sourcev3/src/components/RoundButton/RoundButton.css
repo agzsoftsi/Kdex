@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-button-normal: 0, 163, 217;
+  --background-button-hover: 30, 92, 255;
+  --background-button-line: 255, 255, 255;
+}
+
+.button__round {
+  background: rgb(var(--background-button-normal));
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid rgb(var(--background-button-line));
+  margin-bottom: 10px;
+}
+
+.button__round:hover {
+  background: rgb(var(--background-button-hover));
+}

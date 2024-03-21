@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --background-layout: 68, 68, 68;
+  --background-layout-red: 178, 45, 0;
+  --background-layout-display: 0, 0, 0;
+  --background-layout-logo: 0, 163, 217;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +28,88 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.kdex__layout {
+  background: rgb(var(--background-layout));
+  padding: 20px;
+  width: 1240px;
+  height: 720px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.kdex__layout-left {
+  background: rgb(var(--background-layout-red));
+  border-radius: 20px 0px 0px 20px;
+  width: 100px;
+  height: 100%;
+}
+
+.kdex__layout-top {
+  background: rgb(var(--background-layout-red));
+  border-radius: 0px 20px 0px 0px;
+  width: 1100px;
+  height: 100px;
+}
+
+.kdex__layout-between-1 {
+  background: rgb(var(--background-layout-red));
+  border-radius: 0px;
+  width: 100px;
+  height: 200px;
+}
+
+.kdex__layout-between-2 {
+  position: absolute;
+  background: rgb(var(--background-layout-red));
+  border-radius: 0px;
+  width: 150px;
+  height: 100px;
+  margin-top: 168px;
+  margin-left: -63px;
+  rotate: -45deg;
+}
+
+.kdex__layout-display {
+  position: fixed;
+  background: rgb(var(--background-layout-display));
+  border-radius: 8px;
+  width: 990px;
+  height: 570px;
+  margin-top: 110px;
+  margin-left: 210px;
+}
+
+.kdex__layout-main-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: -15px;
+  margin-top: 357px;
+}
+
+.kdex__layout-round-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.kdex__layout-logo {
+  position: fixed;
+  z-index: 10;
+  width: 150px;
+  height: 150px;
+  background: rgb(var(--background-layout-logo));
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: -75px;
 }
 
 @layer utilities {

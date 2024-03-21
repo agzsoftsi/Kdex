@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-button-normal: 0, 163, 217;
+  --background-button-hover: 30, 92, 255;
+  --background-button-line: 255, 255, 255;
+}
+
+.button__main {
+  background: rgb(var(--background-button-normal));
+  width: 120px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: space-between;
+  border: 1px solid rgb(var(--background-button-line));
+  margin-bottom: 10px;
+}
+
+.button__main:hover {
+  background: rgb(var(--background-button-hover));
+}
+
+.button__main-line {
+  width: 1px;
+  height: 15px;
+  background: rgb(var(--background-button-line));
+}
