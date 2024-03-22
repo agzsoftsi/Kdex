@@ -5,6 +5,7 @@
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-button-normal: 0, 163, 217;
+  --background-button-disabled: 187, 187, 187;
   --background-button-hover: 30, 92, 255;
   --background-button-line: 255, 255, 255;
 }
@@ -19,10 +20,21 @@
   justify-content: space-between;
   border: 1px solid rgb(var(--background-button-line));
   margin-bottom: 10px;
+  transition-duration: 0.3s;
 }
 
 .button__main:hover {
   background: rgb(var(--background-button-hover));
+}
+
+.button__main:disabled {
+  background: rgb(var(--background-button-disabled));
+}
+
+.button__main-line {
+  width: 1px;
+  height: 15px;
+  background: rgb(var(--background-button-line));
 }
 
 .button__main-line {

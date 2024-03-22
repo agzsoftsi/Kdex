@@ -6,7 +6,12 @@
   --foreground-rgb: 255, 255, 255;
   --background-button-normal: 0, 163, 217;
   --background-button-hover: 30, 92, 255;
+  --background-button-disabled: 187, 187, 187;
   --background-button-line: 255, 255, 255;
+  --background-button-info: 0, 178, 0;
+  --background-button-reset: 238, 27, 36;
+  --background-button-hover-info: 0, 140, 35;
+  --background-button-hover-reset: 178, 0, 0;
 }
 
 .button__round {
@@ -20,8 +25,37 @@
   padding: 5px;
   border: 1px solid rgb(var(--background-button-line));
   margin-bottom: 10px;
+  transition-duration: 0.3s;
+}
+
+.button__round.button__round--info {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  width: 60px;
+  height: 60px;
+  background: rgb(var(--background-button-info));
+}
+
+.button__round.button__round--reset {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  width: 60px;
+  height: 60px;
+  background: rgb(var(--background-button-reset));
 }
 
 .button__round:hover {
   background: rgb(var(--background-button-hover));
+}
+
+.button__round.button__round--info:hover {
+  background: rgb(var(--background-button-hover-info));
+}
+
+.button__round.button__round--reset:hover {
+  background: rgb(var(--background-button-hover-reset));
+}
+
+.button__round:disabled {
+  background: rgb(var(--background-button-disabled));
 }

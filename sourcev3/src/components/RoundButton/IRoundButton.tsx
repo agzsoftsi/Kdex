@@ -9,4 +9,7 @@ export type StaticImageImported = {
 export interface IRoundButton {
   image: StaticImageImported;
   onClick?: () => void;
+  disabled?: boolean;
+  cssModified?: string;
+  typeButton?: string;
 }

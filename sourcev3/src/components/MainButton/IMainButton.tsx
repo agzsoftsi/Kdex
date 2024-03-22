@@ -10,4 +10,5 @@ export interface IMainButton {
   text: string;
   image: StaticImageImported;
   onClick?: () => void;
+  disabled?: boolean;
 }
