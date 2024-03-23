@@ -15,7 +15,9 @@ import IconRotation from "../assets/icons/icons8-rotation-64.png";
 import IconAbout from "../assets/icons/icons8-about-64.png";
 import IconReset from "../assets/icons/icons8-restart-64.png";
 import logo from "../assets/icons/logo.png";
+import stereoBox from "../assets/icons/stereobox.png";
 import Image from "next/image";
+import Display from "@/components/Display/Display";
 
 export default function Home() {
   return (
@@ -70,9 +72,21 @@ export default function Home() {
             disabled
           />
         </div>
+        <div className="kdex__layout-stereo">
+          <Image
+            src={stereoBox}
+            alt="stereobox"
+            className="kdex__layout-stereo-box"
+          ></Image>
+          <Image
+            src={stereoBox}
+            alt="stereobox"
+            className="kdex__layout-stereo-box"
+          ></Image>
+        </div>
       </div>
       <div id="kdex-layout-display" className="kdex__layout-display">
-        display
+        <Display />
       </div>
     </main>
   );

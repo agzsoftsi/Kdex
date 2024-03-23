@@ -6,8 +6,12 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
-  --background-layout: 68, 68, 68;
-  --background-layout-red: 202, 202, 217;
+  --background-layout: 10, 40, 76;
+  --background-layout-gray: 68, 68, 68;
+  --background-layout-red: 217, 54, 0;
+  --background-layout-blue1: 10, 40, 76;
+  --background-layout-blue2: 4, 59, 114;
+  --background-layout-white: 202, 202, 217;
   --background-layout-display: 0, 0, 0;
   --background-layout-logo: 0, 163, 217;
 }
@@ -87,6 +91,7 @@ body {
   height: 520px;
   margin-top: 80px;
   margin-left: 210px;
+  padding: 10px;
 }
 
 .kdex__layout-main-buttons {
@@ -123,6 +128,23 @@ body {
   justify-content: center;
   width: 180px;
   height: 72px;
+}
+
+.kdex__layout-stereo {
+  position: fixed;
+  z-index: 10;
+  margin-top: 10px;
+  margin-left: -87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgb(var(--background-layout-gray));
+  padding: 4px;
+}
+
+.kdex__layout-stereo img:first-child {
+  margin-right: 5px;
 }
 
 @layer utilities {
