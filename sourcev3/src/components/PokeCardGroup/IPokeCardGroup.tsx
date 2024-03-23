@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
 
-export interface IDisplay {
+export interface IPokeCardGroup {
   data: any;
 }

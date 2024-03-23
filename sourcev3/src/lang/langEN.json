@@ -4,5 +4,8 @@
     "btnFilter": "Filter",
     "btnSpeech": "Speech",
     "btnFavorites": "Favorites"
+  },
+  "PokeCardGroup": {
+    "title": "PokeDex"
   }
 }

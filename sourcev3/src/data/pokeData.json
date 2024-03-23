@@ -1,0 +1,1325 @@
+{
+  "count": 1302,
+  "results": [
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Green",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Yellow",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Red",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Blue",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Purple",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Violet",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Brown",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "White",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Silver",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Golden",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Orange",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "number": "0001",
+      "name": "Bulbasaur",
+      "description": "Bulbasaur is a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches. It has red eyes with white pupils, pointed, ear-like structures on top of its head, and a short, blunt snout with a wide mouth. A pair of small, pointed teeth are visible in the upper jaw when its mouth is open. Each of its thick legs ends with three sharp claws. On Bulbasaur's back is a green plant bulb that conceals two slender, tentacle-like vines, which is grown from a seed planted there at birth. The bulb also provides it with energy through photosynthesis as well as from the nutrient-rich seeds contained within.",
+      "weight": "6,9kg",
+      "height": "0,7m",
+      "gender_ratio": { "male": "87,5%", "female": "12,5%" },
+      "base_experience": 64,
+      "capture_rate": 45,
+      "hatch_counter": 20,
+      "base_happiness": 50,
+      "is_mega": false,
+      "is_battle_only": false,
+      "is_baby": false,
+      "is_legendary": false,
+      "is_mythical": false,
+      "region": ["Kanto"],
+      "color": "Pink",
+      "generation": ["Generation-I"],
+      "growth_rate": ["Medium Slow"],
+      "habitat": ["Grassland"],
+      "egg_groups": ["Monster", "Plant"],
+      "types": ["Grass", "Poison"],
+      "abilities": [
+        {
+          "name": "Overgrow",
+          "is_hidden": false
+        },
+        {
+          "name": "Chlorophyll",
+          "is_hidden": true
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Hp"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Attack"
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "name": "Defense"
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "name": "Special Attack"
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "name": "Special Defense"
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "name": "Speed"
+        }
+      ],
+      "sprites": {
+        "front_default": "1.png",
+        "front_female": null,
+        "front_shiny": "1s.png",
+        "front_shiny_female": null
+      },
+      "chain": {
+        "name": "bulbasaur",
+        "trigger": "level-up",
+        "evolves_to": [
+          {
+            "name": "ivysaur",
+            "trigger": "level-up",
+            "evolves_to": [
+              {
+                "name": "venusaur"
+              }
+            ]
+          }
+        ]
+      },
+      "moves": [
+        {
+          "form": "Level Up",
+          "move": [
+            { "name": "Tackle", "type": "Normal", "level": 1 },
+            { "name": "Growl", "type": "Normal", "level": 1 },
+            { "name": "Vine Whip", "type": "Grass", "level": 3 },
+            { "name": "Growth", "type": "Normal", "level": 6 },
+            { "name": "Leech Seed", "type": "Grass", "level": 9 },
+            { "name": "Razor Leaf", "type": "Grass", "level": 12 },
+            { "name": "Poison Powder", "type": "Poison", "level": 15 },
+            { "name": "Sleep Powder", "type": "Grass", "level": 15 },
+            { "name": "Seed Bomb", "type": "Grass", "level": 18 },
+            { "name": "Take Down", "type": "Normal", "level": 21 },
+            { "name": "Sweet Scent", "type": "Normal", "level": 24 },
+            { "name": "Synthesis", "type": "Grass", "level": 24 },
+            { "name": "Worry Seed", "type": "Grass", "level": 30 },
+            { "name": "Power Whip", "type": "Grassl", "level": 33 },
+            { "name": "Solar Beam", "type": "Grass", "level": 36 }
+          ]
+        }
+      ]
+    }
+  ]
+}

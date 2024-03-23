@@ -19,12 +19,19 @@ import stereoBox from "../assets/icons/stereobox.png";
 import CaseBox from "../assets/icons/caseFeature.png";
 import Image from "next/image";
 import Display from "@/components/Display/Display";
-
+import data from "@/data/pokeData.json";
 import appText from "@/lang/langEN.json";
+
 import { useState } from "react";
 
 export default function Home() {
   const [langSelected, setLangSelected] = useState("EN");
+  const [pokeData, setPokeData] = useState(null);
+
+  setTimeout(() => {
+    setPokeData(data.results as any);
+  }, 1000);
+
   return (
     <main id="kdex-layout" className="kdex__layout">
       <div className="kdex__layout-cfeat">
@@ -98,7 +105,7 @@ export default function Home() {
         </div>
       </div>
       <div id="kdex-layout-display" className="kdex__layout-display">
-        <Display />
+        <Display data={pokeData} />
       </div>
     </main>
   );

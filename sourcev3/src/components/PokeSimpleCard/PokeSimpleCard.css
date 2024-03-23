@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --foreground-black: 0, 0, 0;
+  --background-number: 255, 255, 255;
+  --background-start: 0, 50, 0;
+  --background-end: 0, 0, 0;
+  --display-border-container: 68, 68, 68;
+  --card-border-container-green: 0, 200, 0;
+  --card-border-container-red: 200, 0, 0;
+  --card-border-container-blue: 0, 163, 217;
+  --card-border-container-orange: 255, 127, 0;
+  --card-border-container-violet: 201, 38, 255;
+  --card-border-container-purple: 128, 0, 255;
+  --card-border-container-black: 0, 128, 0;
+  --card-border-container-white: 255, 255, 255;
+  --card-border-container-pink: 255, 153, 153;
+  --card-border-container-brown: 140, 70, 0;
+  --card-border-container-silver: 204, 204, 204;
+  --card-border-container-golden: 217, 163, 0;
+  --card-border-container-yellow: 255, 255, 0;
+}
+
+.PokeSimpleCard__container {
+  border-radius: 8px;
+  border: 1px solid rgb(var(--display-border-container));
+  height: 170px;
+  width: 110px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.PokeSimpleCard__image {
+  margin-bottom: 10px;
+}
+
+.PokeSimpleCard__container.Green {
+  border: 1px solid rgb(var(--card-border-container-green));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(0, 70, 0);
+}
+
+.PokeSimpleCard__container.Red {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-red), 0.4);
+  border: 1px solid rgb(var(--card-border-container-red));
+}
+
+.PokeSimpleCard__container.Blue {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-blue), 0.4);
+  border: 1px solid rgb(var(--card-border-container-blue));
+}
+
+.PokeSimpleCard__container.Yellow {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-yellow), 0.4);
+  border: 1px solid rgb(var(--card-border-container-yellow));
+}
+
+.PokeSimpleCard__container.Orange {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-orange), 0.4);
+  border: 1px solid rgb(var(--card-border-container-orange));
+}
+
+.PokeSimpleCard__container.Violet {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-violet), 0.4);
+  border: 1px solid rgb(var(--card-border-container-violet));
+}
+
+.PokeSimpleCard__container.Purple {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-purple), 0.4);
+  border: 1px solid rgb(var(--card-border-container-purple));
+}
+
+.PokeSimpleCard__container.Brown {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-brown), 0.4);
+  border: 1px solid rgb(var(--card-border-container-brown));
+}
+
+.PokeSimpleCard__container.Black {
+  border: 1px solid rgb(var(--card-border-container-black));
+}
+
+.PokeSimpleCard__container.White {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-white), 0.5);
+  border: 1px solid rgb(var(--card-border-container-white));
+}
+.PokeSimpleCard__container.Silver {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-silver), 0.4);
+  border: 1px solid rgb(var(--card-border-container-silver));
+}
+.PokeSimpleCard__container.Golden {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-golden), 0.4);
+  border: 1px solid rgb(var(--card-border-container-golden));
+}
+.PokeSimpleCard__container.Pink {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end))
+    )
+    rgb(var(--card-border-container-pink), 0.4);
+  border: 1px solid rgb(var(--card-border-container-pink));
+}
+
+.PokeSimpleCard__title {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.PokeSimpleCard__number {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgb(var(--background-number));
+  width: 100%;
+  color: rgb(var(--foreground-black));
+  text-align: center;
+}
+
+.PokeSimpleCard__type {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+}

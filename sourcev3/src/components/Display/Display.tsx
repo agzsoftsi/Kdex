@@ -1,11 +1,14 @@
-import LoadScreen from "../LoadScreen/LoadScreen";
 import "./Display.css";
-import Image from "next/image";
+import { IDisplay } from "./IDisplay";
+import PokeCardGroup from "@/components/PokeCardGroup/PokeCardGroup";
+import LoadScreen from "@/components/LoadScreen/LoadScreen";
 
-export default function Display() {
+export default function Display({ data }: IDisplay) {
+  console.log(data);
+
   return (
     <div className="display__container">
-      <LoadScreen />
+      {data ? <PokeCardGroup data={data} /> : <LoadScreen />}
     </div>
   );
 }

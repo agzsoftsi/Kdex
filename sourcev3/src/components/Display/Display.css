@@ -5,6 +5,7 @@
 :root {
   --foreground-rgb: 255, 255, 255;
   --display-border-container: 68, 68, 68;
+  --scrollbar-color: 68, 68, 68;
 }
 
 .display__container {
@@ -15,4 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: auto;
+  scrollbar-color: rgb(0, 163, 217) rgb(var(--display-border-container), 0.3);
+  scrollbar-width: thin;
 }
