@@ -1,0 +1,8 @@
+{
+  "mainButtons": {
+    "btnSearch": "Search",
+    "btnFilter": "Filter",
+    "btnSpeech": "Speech",
+    "btnFavorites": "Favorites"
+  }
+}

@@ -16,12 +16,21 @@ import IconAbout from "../assets/icons/icons8-about-64.png";
 import IconReset from "../assets/icons/icons8-restart-64.png";
 import logo from "../assets/icons/logo.png";
 import stereoBox from "../assets/icons/stereobox.png";
+import CaseBox from "../assets/icons/caseFeature.png";
 import Image from "next/image";
 import Display from "@/components/Display/Display";
 
+import appText from "@/lang/langEN.json";
+import { useState } from "react";
+
 export default function Home() {
+  const [langSelected, setLangSelected] = useState("EN");
   return (
     <main id="kdex-layout" className="kdex__layout">
+      <div className="kdex__layout-cfeat">
+        <Image src={CaseBox} alt="casefeat"></Image>
+      </div>
+
       <div className="kdex__layout-controls">
         <RoundButton
           image={IconAbout}
@@ -37,14 +46,17 @@ export default function Home() {
       <div id="kdex-layout-left" className="kdex__layout-left">
         <div className="kdex__layout-main-buttons">
           <MainButton
-            text="Search"
+            text={appText.mainButtons.btnSearch}
             image={IconSearch}
             onClick={() => console.log("actions")}
             disabled
           />
-          <MainButton text="Filter  " image={IconFilter} />
-          <MainButton text="Speech" image={IconSpeech} />
-          <MainButton text="Favorites" image={IconFavorite} />
+          <MainButton text={appText.mainButtons.btnFilter} image={IconFilter} />
+          <MainButton text={appText.mainButtons.btnSpeech} image={IconSpeech} />
+          <MainButton
+            text={appText.mainButtons.btnFavorites}
+            image={IconFavorite}
+          />
         </div>
       </div>
       <div id="kdex-layout-top" className="kdex__layout-top">
